@@ -15,22 +15,22 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img class="d-block w-100" src="./img/langui.png" alt="primero slide" style="object-fit: contain;">
+                <img class="d-block w-100 img-carr-size" src="./img/langui.png" alt="primero slide" style="object-fit: contain;">
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100" src="./img/baloncesto.png" alt="segundo slide" style="object-fit: contain;">
+                <img class="d-block w-100 img-carr-size" src="./img/baloncesto.png" alt="segundo slide" style="object-fit: contain;">
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100" src="./img/futbol.png" alt="tercero slide" style="object-fit: contain;">
+                <img class="d-block w-100 img-carr-size" src="./img/futbol.png" alt="tercero slide" style="object-fit: contain;">
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100" src="./img/corriendo.png" alt="cuarto slide" style="object-fit: contain;">
+                <img class="d-block w-100 img-carr-size" src="./img/corriendo.png" alt="cuarto slide" style="object-fit: contain;">
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100" src="./img/nadando.png" alt="quinto slide" style="object-fit: contain;">
+                <img class="d-block w-100 img-carr-size" src="./img/nadando.png" alt="quinto slide" style="object-fit: contain;">
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100" src="./img/logo.png" alt="sexto slide" style="object-fit: contain;">
+                <img class="d-block w-100 img-carr-size" src="./img/logo.png" alt="sexto slide" style="object-fit: contain;">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -41,7 +41,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">SIGUIENTE</span>
         </button>
-        </div>
+    </div>
 
     <?php include("plantilla/footer.php"); ?>
 </body>
