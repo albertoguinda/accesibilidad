@@ -3,12 +3,7 @@
         <div class="row">
             <div class="col-md-4">
                 <a class="navbar-brand" href="#">
-<<<<<<< HEAD
-                    <img src="./img/logo.png" width="80px" height="80px" class="d-inline-block align-top" alt="logotipo" />
-=======
-                    <img src="<?php echo $path ?>logo.png" width="30" height="30" class="d-inline-block align-top" alt="" />
->>>>>>> bb8d9fdf5ea70c12a2ae2fb309118eab22dbfd13
-                    COMARCA COMUNIDAD DE TERUEL
+                    <img src="./img/logo.png" width="80px" height="80px" class="d-inline-block align-top" alt="logotipo" /> COMARCA COMUNIDAD DE TERUEL
                 </a>
                 <p>Calle de los abetos 123, Zaragoza 50004</p>
                 <p>+34 288 76 34 33 | +34 922 988 122</p>
@@ -43,5 +38,3 @@
         </div>
     </div>
 </footer>
-
-<?php include("plantilla/scripts.php") ?>
