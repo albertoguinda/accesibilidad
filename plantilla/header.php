@@ -15,7 +15,7 @@
                 <a class="nav-link" href="/sobrenosotros.html">SOBRE NOSOTROS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/ayuda.html">AYUDA</a>
+                <a class="nav-link" href="/ayuda.php">AYUDA</a>
             </li>
         </ul>
     </div>
