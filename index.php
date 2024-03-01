@@ -4,41 +4,45 @@
 
 <body>
     <?php include("plantilla/head.php"); ?>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img class="d-block w-100" src="./img/langui.png" alt="primero slide" style="width: 500px; height: 500px;">
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
         </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="./img/baloncesto.png" alt="segundo slide" style="width: 500px; height: 500px;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img class="d-block w-100" src="./img/langui.png" alt="primero slide" style="object-fit: contain;">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="./img/baloncesto.png" alt="segundo slide" style="object-fit: contain;">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="./img/futbol.png" alt="tercero slide" style="object-fit: contain;">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="./img/corriendo.png" alt="cuarto slide" style="object-fit: contain;">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="./img/nadando.png" alt="quinto slide" style="object-fit: contain;">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="./img/logo.png" alt="sexto slide" style="object-fit: contain;">
+            </div>
         </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="./img/futbol.png" alt="tercero slide" style="width: 500px; height: 500px;">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">ANTERIOR</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">SIGUIENTE</span>
+        </button>
         </div>
-        <div class="carousel-item active">
-            <img class="d-block w-100" src="./img/corriendo.png" alt="cuarto slide" style="width: 500px; height: 500px;">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="./img/nadando.png" alt="quinto slide" style="width: 500px; height: 500px;">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="./img/logo.png" alt="sexto slide" style="width: 500px; height: 500px;">
-        </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-    </div>
+
     <?php include("plantilla/footer.php"); ?>
 </body>
 
