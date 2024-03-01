@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-4">
                 <a class="navbar-brand" href="#">
-                    <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="" />
+                    <img src="<?php echo $path ?>logo.png" width="30" height="30" class="d-inline-block align-top" alt="" />
                     COMARCA COMUNIDAD DE TERUEL
                 </a>
                 <p>Calle de los abetos 123, Zaragoza 50004</p>
